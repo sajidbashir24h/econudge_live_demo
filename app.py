@@ -64,7 +64,7 @@ SAFE_FALLBACK = "This item aligns with your recent preferences and offers a clea
 
 
 st.set_page_config(
-    page_title="EcoNudge Demo Console",
+    page_title="EcoNudge: Explainable Sustainable Fashion Recommender",
     page_icon="EN",
     layout="wide",
     initial_sidebar_state="expanded",
