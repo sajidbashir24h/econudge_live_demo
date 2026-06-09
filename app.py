@@ -64,7 +64,7 @@ SAFE_FALLBACK = "This item aligns with your recent preferences and offers a clea
 
 
 st.set_page_config(
-    page_title="EcoNudge: Explainable Sustainable Fashion Recommender",
+    page_title="EcoNudge - Sustainable Fashion Recommender",
     page_icon="EN",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -1606,7 +1606,7 @@ def main() -> None:
         st.markdown(
             """
             <div class='eco-hero'>
-                <h1>EcoNudge Demo Console</h1>
+                <h1>EcoNudge: Explainable Sustainable Fashion Recommender</h1>
                 <p>The dashboard cannot load the demo assets in the current Python environment.</p>
             </div>
             """,
@@ -1628,7 +1628,7 @@ def main() -> None:
             <div class='eco-brand'>
                 <div class='eco-logo'>EN</div>
                 <div class='eco-brand-copy'>
-                    <h1>EcoNudge Demo Console</h1>
+                    <h1>EcoNudge: Explainable Sustainable Fashion Recommender</h1>
                     <p>Manager-controlled recommendation dashboard for sustainable commerce decisions.</p>
                 </div>
             </div>
