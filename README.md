@@ -4,11 +4,17 @@ EcoNudge is a sustainable recommender-system prototype for fashion e-commerce. I
 
 This `live/` package is the deployable demo edition of the project. It is designed for public hosting on Streamlit Community Cloud or a similar lightweight platform, with fast startup, compact assets, and no dependency on the full local training pipeline.
 
-## Live Demo
+## Quick Links
 
-Public Streamlit app:
+- Live demo: `https://econudgelivedemo-sajidbashir24h.streamlit.app/`
+- Full research repository: `https://github.com/TuWienProjects/tuw-cdl-sustainable-recsys`
+- Standalone demo repository: `https://github.com/sajidbashir24h/econudge_live_demo`
 
-- https://econudgelivedemo-sajidbashir24h.streamlit.app/
+## Why This Demo Matters
+
+Fashion e-commerce recommenders often optimize only short-term relevance. In practice, that can hide long-tail products, worsen deadstock, ignore return-risk patterns, and make sustainability trade-offs invisible to business teams.
+
+EcoNudge demonstrates a more transparent alternative. The dashboard keeps a recommendation baseline in view, then shows how strategy-aware reranking changes the final list when business and sustainability priorities are adjusted.
 
 ## What This Demo Shows
 
@@ -64,12 +70,8 @@ This repository is the demo surface of a larger EcoNudge system. The full projec
 - evaluation notebooks and reporting
 - academic write-up and implementation details
 
-If you publish this `live/` folder as a separate repository, add the URL of the full project here:
-
 - Full research repository: `https://github.com/TuWienProjects/tuw-cdl-sustainable-recsys`
 - Live demo: `https://econudgelivedemo-sajidbashir24h.streamlit.app/`
-
-If you keep `live/` inside the main repository, you can replace that placeholder with the actual repository link before publishing.
 
 ## Project Background
 
@@ -162,12 +164,12 @@ cd live
 
 That script is intended for maintainers who also have access to the complete project workspace and generated artifacts.
 
-## Suggested Repository Positioning
+## Portfolio Positioning
 
-This demo repo works best when presented as:
+This repository is best understood as the public product surface of EcoNudge:
 
-- a deployable public-facing prototype
-- a lightweight product showcase of the research
-- a companion surface to the full EcoNudge implementation
+- a deployable live prototype
+- a lightweight showcase of the research contribution
+- a companion interface to the full implementation and report
 
-For portfolio readers, the key message is that this repository demonstrates the decision logic, UX, and deployable system behavior, while the full research repository contains the complete experimentation and pipeline context.
+For portfolio readers, this repo shows the system behavior, user experience, and decision logic. The full research repository provides the deeper modeling, pipeline, and evaluation context behind the demo.
