@@ -64,7 +64,7 @@ SAFE_FALLBACK = "This item aligns with your recent preferences and offers a clea
 
 
 st.set_page_config(
-    page_title="EcoNudge - Sustainable Fashion Recommender",
+    page_title="EcoNudge: Explainable Sustainable Fashion Recommender for E-Commerce",
     page_icon="EN",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -1629,7 +1629,7 @@ def main() -> None:
                 <div class='eco-logo'>EN</div>
                 <div class='eco-brand-copy'>
                     <h1>EcoNudge: Explainable Sustainable Fashion Recommender</h1>
-                    <p>Manager-controlled recommendation dashboard for sustainable commerce decisions.</p>
+                    <p>Explainable e-commerce recommendation dashboard balancing relevance, sustainability, margin, returns, logistics, and trust.</p>
                 </div>
             </div>
             <div>
@@ -1642,6 +1642,9 @@ def main() -> None:
         </div>
         """,
         unsafe_allow_html=True,
+    )
+    st.text(
+        "Explainable sustainable fashion recommender for e-commerce with interactive strategy controls, reranking, business metrics, and sustainability-aware recommendations."
     )
 
     tabs = st.tabs(["Control Room", "User Demo", "Comparison", "Help"])

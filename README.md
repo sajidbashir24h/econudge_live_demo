@@ -1,6 +1,6 @@
 # EcoNudge Live Prototype
 
-EcoNudge is a sustainable recommender-system prototype for fashion e-commerce. It shows how a recommendation stack can balance user relevance, business performance, and sustainability impact inside one interactive decision-support dashboard.
+EcoNudge is an explainable sustainable fashion recommender for e-commerce. The live demo shows how a recommendation stack can balance user relevance, business performance, sustainability impact, and transparent recommendation reasoning inside one interactive decision-support dashboard.
 
 This `live/` package is the deployable demo edition of the project. It is designed for public hosting on Streamlit Community Cloud or a similar lightweight platform, with fast startup, compact assets, and no dependency on the full local training pipeline.
 
