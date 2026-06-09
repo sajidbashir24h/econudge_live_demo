@@ -4,6 +4,12 @@ EcoNudge is a sustainable recommender-system prototype for fashion e-commerce. I
 
 This `live/` package is the deployable demo edition of the project. It is designed for public hosting on Streamlit Community Cloud or a similar lightweight platform, with fast startup, compact assets, and no dependency on the full local training pipeline.
 
+## Live Demo
+
+Public Streamlit app:
+
+- https://econudgelivedemo-sajidbashir24h.streamlit.app/
+
 ## What This Demo Shows
 
 - an interactive Streamlit dashboard with the same core user flow as the original project
@@ -61,6 +67,7 @@ This repository is the demo surface of a larger EcoNudge system. The full projec
 If you publish this `live/` folder as a separate repository, add the URL of the full project here:
 
 - Full research repository: `https://github.com/TuWienProjects/tuw-cdl-sustainable-recsys`
+- Live demo: `https://econudgelivedemo-sajidbashir24h.streamlit.app/`
 
 If you keep `live/` inside the main repository, you can replace that placeholder with the actual repository link before publishing.
 
